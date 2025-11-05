@@ -1,2 +1,2 @@
 # Workflow
-![](assets/workflow.png)
+![](assets/workflow.jpg)
