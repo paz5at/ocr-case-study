@@ -1,2 +1,7 @@
 Flask>=3.0.0
 easyocr>=1.7.1
+Werkzeug>=3.0.0
+pillow>=10.0.0
+numpy
+torch
+opencv-python-headless
