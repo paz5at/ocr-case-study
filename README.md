@@ -39,7 +39,7 @@ This project provides a lightweight handwriting OCR service built with Flask and
 ### **Using Docker**
 
 #### Build and Run (one command)
-bash then \
+bash \
 sh run.sh \
 or manually: \
 docker build -t ocr-service:latest . \
@@ -113,6 +113,7 @@ GitHub Repository:
 - Basic frontend upload UI inspired by a ChatGPT-assisted template
 
 **LICENSE under the LICENSE file** 
+
 
 
 
