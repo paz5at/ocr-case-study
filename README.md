@@ -1,4 +1,4 @@
-# Handwriting OCR Microservice
+# Handwriting OCR 
 
 A containerized Flask-based OCR microservice using EasyOCR to extract handwritten text from uploaded images. This project demonstrates a simple machine-learning data pipeline, API design, and containerized deployment using Docker.
 
@@ -111,8 +111,10 @@ GitHub Repository:
 - EasyOCR — Apache 2.0 License
 - PyTorch — BSD License
 - Basic frontend upload UI inspired by a ChatGPT-assisted template
+- Used ChatGPT to help with the README
 
 **LICENSE under the LICENSE file** 
+
 
 
 
