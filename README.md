@@ -39,11 +39,11 @@ This project provides a lightweight handwriting OCR service built with Flask and
 ### **Using Docker**
 
 #### Build and Run (one command)
-bash \ 
-sh run.sh \
-or manually: \
-docker build -t ocr-service:latest . \
-docker run --rm -p 8080:8080 ocr-service:latest \
+bash 
+sh run.sh 
+or manually: 
+docker build -t ocr-service:latest . 
+docker run --rm -p 8080:8080 ocr-service:latest 
 
 ## 4) Design Decisions
 
@@ -77,14 +77,15 @@ docker run --rm -p 8080:8080 ocr-service:latest \
 ## 5) Results & Evaluation
 
 ### Example OCR Output
-json \
-{ \
-  "ok": true, \
-  "results": [ \
-    { "text": "hello", "confidence": 0.82 }, \
-    { "text": "world", "confidence": 0.77 } \
-  ] \
-} \
+json 
+{ 
+  "ok": true, 
+  "results": [ 
+    { "text": "hello", "confidence": 0.82 }, 
+    { "text": "world", "confidence": 0.77 } 
+  ] 
+} 
+
 ### Validation Tests
 This project includes a simple smoke test file:
 **To run tests:**
@@ -112,6 +113,7 @@ PyTorch — BSD License
 Basic frontend upload UI inspired by a ChatGPT-assisted template
 
 **LICENSE under the LICENSE file** 
+
 
 
 
