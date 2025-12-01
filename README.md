@@ -39,10 +39,10 @@ This project provides a lightweight handwriting OCR service built with Flask and
 ### **Using Docker**
 
 #### Build and Run (one command)
-bash 
-sh run.sh 
-or manually: 
-docker build -t ocr-service:latest . 
+bash then \
+sh run.sh \
+or manually: \
+docker build -t ocr-service:latest . \
 docker run --rm -p 8080:8080 ocr-service:latest 
 
 ## 4) Design Decisions
@@ -108,11 +108,12 @@ GitHub Repository:
 [repo](https://github.com/paz5at/ocr-case-study)
 
 ## Credits
-EasyOCR — Apache 2.0 License
-PyTorch — BSD License
-Basic frontend upload UI inspired by a ChatGPT-assisted template
+- EasyOCR — Apache 2.0 License
+- PyTorch — BSD License
+- Basic frontend upload UI inspired by a ChatGPT-assisted template
 
 **LICENSE under the LICENSE file** 
+
 
 
 
